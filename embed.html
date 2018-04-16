@@ -1,1627 +1,605 @@
-<div class="froont-wrapper">
-    <script type="text/javascript">
-        var fonts = {
-            "Montserrat": {
-                "family": "Montserrat",
-                "source": "google",
-                "subsets": [
-                    "latin"
-                ],
-                "variants": [
-                    "700",
-                    "regular"
-                ]
-            },
-            "futura-pt": {
-                "css_name": "futura-pt",
-                "family": "Futura PT",
-                "id": "ftnk",
-                "source": "typekit",
-                "stack": "sans-serif",
-                "variants": [
-                    "n3",
-                    "i3",
-                    "n4",
-                    "i4",
-                    "n5",
-                    "i5",
-                    "n7",
-                    "i7",
-                    "n8",
-                    "i8"
-                ]
+<div class="froont-embed-content fr-pro-baoq7r">
+    <div class="fr-assets">
+        <link rel="stylesheet" href="froont-export-main.5416e63.css">
+        <script type="text/javascript" src="footer-export-main.5416e63.js"></script>
+        <style id="widget-dynamic-css">
+            .froont-embed-content.fr-pro-baoq7r .b-content h1 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 2.8rem;
+                line-height: 1.2;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
             }
-        };
-    </script>
-    <!-- Base styles -->
-    <script type="text/javascript" src="froont-base-script.js"></script>
-    <link rel="stylesheet" href="froont-base-style.css">
 
-    <!-- Styles for this project (in production thse would be minified) -->
-     <style>
-        .b-content h1 {
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content h2 {
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content h3 {
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content h4 {
-            font-weight: 400;
-            font-size: 1.1rem;
-            line-height: 1.4;
-            text-align: center;
-            letter-spacing: .05em;
-            margin-top: 0;
-            margin-bottom: 0;
-            color: white
-        }
-
-        .b-content h5 {
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content h6 {
-            font-weight: 700;
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content p {
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content ul li {
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content ol li {
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content blockquote {
-            margin-top: 0;
-            margin-bottom: 0
-        }
-
-        .b-content .fr_button {
-            font-family: Montserrat;
-            font-weight: 300;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: inherit;
-            letter-spacing: .01em;
-            color: #2d2d2d;
-            background-color: white;
-            border-radius: 4px
-        }
-
-        .b-content .fr_button_fill_red {
-            font-family: Montserrat;
-            text-align: center;
-            color: white;
-            background-color: #2faded;
-            border-radius: 0
-        }
-
-        .b-content .fr_product_names {
-            background-color: rgba(0, 0, 0, 0.09)
-        }
-
-        .b-content .fr_products {
-            font-size: 1.0rem;
-            line-height: 1.0;
-            text-align: left;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.11)
-        }
-
-        .b-content .fr_podime {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-top: -1px;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 1px;
-            padding-bottom: 2em;
-            background-repeat: no-repeat;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-img.jpg_1400x935.jpg);
-            background-position: center top;
-            background-size: cover;
-            background-attachment: fixed;
-            z-index: 0;
-            min-height: 46.79rem
-        }
-
-        .b-content .fr_cufobu {
-            float: none;
-            display: none;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 9em;
-            padding-bottom: 9em;
-            background-color: black;
-            min-height: 37.6875em
-        }
-
-        .b-content .fr_gilene {
-            float: none;
-            display: block;
-            font-family: futura-pt;
-            font-weight: 400;
-            font-size: 1em;
-            line-height: 1.35em;
-            text-align: center;
-            letter-spacing: .3em;
-            margin-right: auto;
-            margin-left: auto;
-            color: white
-        }
-
-        .b-content .fr_kacuva {
-            float: none;
-            display: block;
-            font-family: futura-pt;
-            font-weight: 300;
-            font-size: .65em;
-            line-height: 1.35em;
-            text-align: center;
-            letter-spacing: .25em;
-            margin-right: auto;
-            margin-left: auto;
-            color: white
-        }
-
-        .b-content .fr_pocamu {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 7em;
-            padding-bottom: 6em;
-            background-color: #008aff;
-            min-height: 21.25em
-        }
-
-        .b-content .fr_diwama {
-            float: none;
-            display: block;
-            width: 90%;
-            margin-top: 10em;
-            margin-right: auto;
-            margin-bottom: 4em;
-            margin-left: auto;
-            padding-top: 1px;
-            min-height: 9.04345703125em;
-            max-width: 980px
-        }
-
-        .b-content .fr_imagewidget {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-top: 3em;
-            margin-right: auto;
-            margin-bottom: .6em;
-            margin-left: auto;
-            max-width: 70px;
-            fill: white
-        }
-
-        .b-content .fr_icon_down {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-top: 16.7em;
-            margin-right: auto;
-            margin-bottom: 1.9em;
-            margin-left: auto;
-            fill: white
-        }
-
-        .b-content .fr_text_block {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: -0.5rem;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1150px
-        }
-
-        .b-content .fr_grid {
-            width: 100%;
-            margin-top: 0rem;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_grid.fr-grid>.fr-widget {
-            float: left
-        }
-
-        .b-content .fr_grid.fr-grid>.fr-widget:nth-child(2n+1) {
-            margin-top: 0;
-            margin-right: 0;
-            margin-bottom: 0;
-            margin-left: 0;
-            width: 63%;
-            clear: left;
-            max-width: inherit
-        }
-
-        .b-content .fr_grid.fr-grid>.fr-widget:nth-child(2n+2) {
-            margin-top: 0;
-            margin-right: 0;
-            margin-bottom: 0;
-            margin-left: 0;
-            width: 37%;
-            clear: none;
-            max-width: inherit
-        }
-
-        .b-content .fr_image_2 {
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_image {
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_jujoda {
-            float: none;
-            display: -webkit-flex;
-            display: flex;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            background-position: center center;
-            background-size: cover;
-            background-attachment: fixed
-        }
-
-        .b-content .fr_pink {
-            display: block;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_container_2 {
-            margin-right: auto;
-            margin-left: auto;
-            min-height: 45.31rem
-        }
-
-        .b-content .fr_image_3 {
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1000px
-        }
-
-        .b-content .fr_image_4 {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_bg_video_youtube {
-            float: none;
-            display: block;
-            -webkit-flex-direction: column;
-            flex-direction: column;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-align-items: center;
-            align-items: center;
-            width: 100%;
-            vertical-align: top;
-            margin-top: 4rem;
-            margin-right: auto;
-            margin-bottom: 4rem;
-            margin-left: auto;
-            background-position: center center;
-            background-size: cover;
-            background-attachment: scroll;
-            min-height: 80vh
-        }
-
-        .b-content .fr_hero_with_fixed_bg {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            padding-top: 150px;
-            padding-bottom: 150px;
-            background-color: white;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/eattle-boxing-gym-1.jpg_2048x1430.jpg);
-            background-position: center top;
-            background-size: auto;
-            background-attachment: fixed;
-            position: relative
-        }
-
-        .b-content .fr_text_block_2 {
-            float: none;
-            display: block;
-            width: 70%;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1150px
-        }
-
-        .b-content .fr_container_6 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 0;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_container_7 {
-            float: none;
-            display: block;
-            width: 50%;
-            margin-top: 1rem;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_button2_2 {
-            float: none;
-            display: block;
-            padding-top: 18px;
-            padding-right: 6px;
-            padding-bottom: 18px;
-            padding-left: 6px;
-            max-width: 170px
-        }
-
-        .b-content .fr_grid_2 {
-            width: 63%;
-            margin-right: auto;
-            margin-left: auto;
-            min-height: 1rem;
-            max-width: 1000px
-        }
-
-        .b-content .fr_grid_2.fr-grid>.fr-widget {
-            float: left
-        }
-
-        .b-content .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+1) {
-            margin-top: .6em;
-            margin-right: 2%;
-            margin-bottom: .6em;
-            margin-left: 0;
-            width: 49%;
-            clear: left;
-            max-width: inherit
-        }
-
-        .b-content .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+2) {
-            margin-top: .6em;
-            margin-right: 0;
-            margin-bottom: .6em;
-            margin-left: 0;
-            width: 49%;
-            clear: none;
-            max-width: inherit
-        }
-
-        .b-content .fr_button2 {
-            float: none;
-            display: block;
-            margin-top: 4rem;
-            padding-top: 18px;
-            padding-right: 10px;
-            padding-bottom: 18px;
-            padding-left: 10px;
-            max-width: 170px
-        }
-
-        .b-content .fr_product_gallery {
-            display: block;
-            font-size: 1.0rem;
-            line-height: 2;
-            margin-top: 0rem;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
-            color: white;
-            background-color: rgba(255, 255, 255, 0.14);
-            min-height: 67.14rem
-        }
-
-        .b-content .fr_gry2_column_images {
-            float: none;
-            display: block;
-            width: 90%;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1200px
-        }
-
-        .b-content .fr_gry2_column_images.fr-grid>.fr-widget {
-            float: left
-        }
-
-        .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(4n+1) {
-            margin-top: .7rem;
-            margin-right: 2%;
-            margin-bottom: .7rem;
-            margin-left: 2%;
-            width: 22.5%;
-            clear: left;
-            max-width: inherit
-        }
-
-        .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(4n+2) {
-            margin-top: .7rem;
-            margin-right: 2%;
-            margin-bottom: .7rem;
-            margin-left: 0;
-            width: 22.5%;
-            clear: none;
-            max-width: inherit
-        }
-
-        .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(4n+3) {
-            margin-top: .7rem;
-            margin-right: 2%;
-            margin-bottom: .7rem;
-            margin-left: 0;
-            width: 22.5%;
-            clear: none;
-            max-width: inherit
-        }
-
-        .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(4n+4) {
-            margin-top: .7rem;
-            margin-right: 2%;
-            margin-bottom: .7rem;
-            margin-left: 0;
-            width: 22.5%;
-            clear: none;
-            max-width: inherit
-        }
-
-        .b-content .fr_gry2_image_one {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload6790537850712658255.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_two {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload5709961617993838265_1.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_three {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload4533559184629575786-1.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_four {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload752112832979483312.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_six {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload778582306915818287.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_seven {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload5061515400276478044-1.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_eight {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload342342848979731966.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_one_2 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload133483530690726011.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_three_2 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload8795383854786049607_1.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_four_2 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload8590017770823127819.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_four_3 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload4895151352066694969.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_four_4 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload2435323822029711549.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_gry2_image_four_6 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload6510535768927741983_5.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_icon_down_3 {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-top: 0;
-            margin-right: auto;
-            margin-bottom: .6em;
-            margin-left: auto;
-            max-width: 70px;
-            fill: white
-        }
-
-        .b-content .fr_scroll_down_2 {
-            float: none;
-            display: block;
-            font-family: futura-pt;
-            font-weight: 300;
-            font-size: .65em;
-            line-height: 1.35em;
-            text-align: center;
-            letter-spacing: .25em;
-            margin-right: auto;
-            margin-bottom: -7.7rem;
-            margin-left: auto;
-            color: white
-        }
-
-        .b-content .fr_container_8 {
-            float: none;
-            display: block;
-            padding-top: 4.8rem
-        }
-
-        .b-content .fr_gry2_image_four_7 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload3080108234293468025.jpg_820x1000.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_text_block_3 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_container_9 {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-bottom: 0;
-            margin-left: auto;
-            padding-bottom: 0
-        }
-
-        .b-content .fr_gry2_image_two_2 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload8108721368388747613.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_container_10 {
-            float: none;
-            display: none;
-            width: 60%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_grown {
-            display: block;
-            width: 80%;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1000px
-        }
-
-        .b-content .fr_image_10 {
-            display: block;
-            width: 100%
-        }
-
-        .b-content .fr_image_11 {
-            display: none;
-            width: 100%
-        }
-
-        .b-content .fr_image_12 {
-            display: none;
-            width: 100%
-        }
-
-        .b-content .fr_gry2_image_eight_2 {
-            background-image: url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload7351215100434025529_1.jpg_445x543.jpg);
-            background-position: center center;
-            background-size: cover;
-            min-height: 22rem
-        }
-
-        .b-content .fr_text_block_4 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_5 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_6 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_7 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_8 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_9 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_10 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_11 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_12 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_13 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_14 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_15 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_16 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_17 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_text_block_18 {
-            float: none;
-            display: block;
-            width: 80%;
-            margin-top: 20.8125rem;
-            margin-bottom: 0;
-            padding-top: .5rem;
-            padding-right: 10px;
-            padding-bottom: 0;
-            padding-left: 10px;
-            min-height: 2em;
-            max-width: 800px
-        }
-
-        .b-content .fr_container_11 {
-            float: none;
-            display: none;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_image_13 {
-            display: none;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            min-height: 12rem;
-            max-width: 1000px
-        }
-
-        .b-content .fr_container_13 {
-            float: none;
-            display: block;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto
-        }
-
-        .b-content .fr_image_15 {
-            display: none;
-            width: 100%;
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1000px
-        }
-
-        @media screen and (max-width: 1024px) {
-            .b-content .fr_pocamu {
-                padding-top:4rem;
-                padding-bottom: 2rem;
-                min-height: 17.88em
+            .froont-embed-content.fr-pro-baoq7r .b-content h2 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 2rem;
+                line-height: 1.2;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
             }
-            .b-content .fr_bg_video_youtube {
-                width: 100%;
-                min-height: 46.89rem;
-                max-width: 1024px
-            }
-            .b-content .fr_hero_with_fixed_bg {
-                padding-top: 6rem;
-                padding-bottom: 6rem;
-                min-height: 29.45rem
-            }
-            .b-content .fr_text_block_2 {
-                width: 100%;
-                max-width: 750px
-            }
-            .b-content .fr_container_7 {
-                width: 100%;
-                max-width: 700px
-            }
-            .b-content .fr_grid_2 {
-                width: 100%;
-                max-width: 490px
-            }
-            .b-content .fr_grid_2.fr-grid>.fr-widget {
-                float: left
-            }
-            .b-content .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+1) {
-                margin-top: .6em;
-                margin-right: 2.7%;
-                margin-bottom: .6em;
-                margin-left: 0;
-                width: 48.65%;
-                clear: left;
-                max-width: inherit
-            }
-            .b-content .fr_grid_2.fr-grid>.fr-widget:nth-child(2n+2) {
-                margin-top: .6em;
-                margin-right: 0;
-                margin-bottom: .6em;
-                margin-left: 0;
-                width: 48.65%;
-                clear: none;
-                max-width: inherit
-            }
-            .b-content .fr_product_gallery {
-                padding-top: 2rem;
-                padding-bottom: 0
-            }
-            .b-content .fr_gry2_column_images {
-                width: 100%;
-                margin-top: 0rem;
-                min-height: 100.59rem;
-                max-width: 960px
-            }
-            .b-content .fr_scroll_down_2 {
-                margin-bottom: 0rem
-            }
-            .b-content .fr_container_8 {
-                margin-top: 1.37rem;
-                margin-bottom: -10rem;
-                padding-top: 2rem
-            }
-            .b-content .fr_text_block_3 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_4 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_5 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_6 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_7 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_8 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_9 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_10 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_11 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_12 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_13 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_14 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_15 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_16 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_17 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-            .b-content .fr_text_block_18 {
-                padding-bottom: 0;
-                min-height: 2.2rem
-            }
-        }
 
-        @media screen and (max-width: 768px) {
-            .b-content .fr_podime {
-                background-image:linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-img-tab.jpg_928x935.jpg);
-                background-size: cover;
-                background-attachment: scroll;
-                min-height: 48.05rem
+            .froont-embed-content.fr-pro-baoq7r .b-content h3 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 1.4rem;
+                line-height: 1.4;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
             }
-            .b-content .fr_pocamu {
+
+            .froont-embed-content.fr-pro-baoq7r .b-content h4 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 1.3rem;
+                line-height: 1.4;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content h5 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: .7rem;
+                line-height: 1.6;
+                text-transform: uppercase;
+                letter-spacing: .07rem;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content h6 {
+                font-family: Montserrat;
+                font-weight: 600;
+                font-size: 1.2rem;
+                line-height: 1.4;
+                margin-top: 2.5rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content p {
+                font-family: Roboto;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content ul li {
+                font-family: Roboto;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content ol li {
+                font-family: Roboto;
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 1.8;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content blockquote {
+                font-family: Roboto;
+                font-weight: 300;
+                font-size: 1.2rem;
+                line-height: 1.6;
+                margin-top: 2.5rem;
+                margin-bottom: 2.5rem;
+                margin-left: 2.5rem;
+                color: #2d2d2d
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content a {
+                text-decoration: underline;
+                color: inherit
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black {
+                text-transform: uppercase
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black.fr-text h2 {
+                font-family: Montserrat;
+                font-size: 3.1em;
+                line-height: .9;
+                text-align: left;
+                color: black
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black {
+                text-transform: none
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black.fr-text p {
+                font-family: Roboto;
+                font-size: 1em;
+                line-height: 1.2;
+                text-align: left;
+                color: black
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton {
+                font-family: Roboto;
+                font-weight: 600;
+                font-size: .9em;
+                line-height: 1em;
+                text-align: center;
+                text-decoration: inherit;
+                text-transform: uppercase;
+                letter-spacing: .04em;
+                color: white;
+                background-color: black;
+                border: 1.5px solid black;
+                border-radius: 3px
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton.fr-text p {
+                color: #060216
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton.fr-text h2 {
+                font-weight: 600;
+                font-size: 1em;
+                line-height: 1.2EM;
+                letter-spacing: .08em;
+                color: black
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_container {
+                float: none;
                 display: block;
-                padding-top: 2rem
+                width: 100%;
+                margin-top: 6.5em;
+                margin-right: auto;
+                margin-bottom: 6.5em;
+                margin-left: auto;
+                padding-right: 3rem;
+                padding-left: 3rem;
+                max-width: 1880px
             }
-            .b-content .fr_diwama {
-                margin-top: 9em
-            }
-            .b-content .fr_icon_down {
-                margin-bottom: 1.4em
-            }
-            .b-content .fr_text_block {
-                margin-top: 0
-            }
-            .b-content .fr_grid {
-                display: block;
-                margin-bottom: 0rem;
-                min-height: 43.94rem
-            }
-            .b-content .fr_jujoda {
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid {
                 display: -webkit-flex;
-                display: flex
-            }
-            .b-content .fr_pink {
-                display: block
-            }
-            .b-content .fr_container_2 {
-                display: block;
-                min-height: 44rem
-            }
-            .b-content .fr_bg_video_youtube {
+                display: flex;
+                -webkit-flex-direction: row;
+                flex-direction: row;
+                -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -webkit-align-items: stretch;
+                align-items: stretch;
                 width: 100%;
-                margin-top: 0;
-                margin-bottom: 0;
-                min-height: 36.02rem;
-                max-width: 1007px
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 1480px
             }
-            .b-content .fr_hero_with_fixed_bg {
-                margin-top: 0
-            }
-            .b-content .fr_container_6 {
-                margin-top: 1.3rem
-            }
-            .b-content .fr_product_gallery {
-                padding-top: 2rem;
-                padding-bottom: 2rem
-            }
-            .b-content .fr_gry2_column_images {
-                width: 90%
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget {
-                float: left
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(2n+1) {
-                margin-top: .6em;
-                margin-right: 1%;
-                margin-bottom: .6em;
-                margin-left: 0;
-                width: 49%;
-                clear: left;
-                max-width: inherit
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(2n+2) {
-                margin-top: .6em;
-                margin-right: 0;
-                margin-bottom: .6em;
-                margin-left: 1%;
-                width: 49%;
-                clear: none;
-                max-width: inherit
-            }
-            .b-content .fr_container_8 {
-                margin-bottom: -4rem
-            }
-            .b-content .fr_container_11 {
-                display: none
-            }
-            .b-content .fr_container_13 {
-                margin-top: 3rem;
-                margin-bottom: 3rem;
-                padding-bottom: 0
-            }
-        }
 
-        @media screen and (max-width: 480px) {
-            .b-content .fr_podime {
-                padding-top:220px;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-img-mob_2.jpg_640x909.jpg);
-                background-size: cover;
-                background-attachment: scroll;
-                min-height: 0
-            }
-            .b-content .fr_pocamu {
-                display: none;
-                padding-top: 3rem;
-                padding-bottom: 2.8rem;
-                min-height: 24.56em
-            }
-            .b-content .fr_diwama {
-                margin-top: -0.1rem;
-                margin-bottom: 3rem;
-                min-height: 8.54rem
-            }
-            .b-content .fr_imagewidget {
-                margin-top: 1rem
-            }
-            .b-content .fr_icon_down {
-                margin-top: 0
-            }
-            .b-content .fr_text_block {
-                width: 100%;
-                max-width: 420px
-            }
-            .b-content .fr_grid {
-                display: none;
-                min-height: 25.32rem
-            }
-            .b-content .fr_grid.fr-grid>.fr-widget {
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget {
                 float: left
             }
-            .b-content .fr_grid.fr-grid>.fr-widget:nth-child(1n+1) {
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget:nth-child(2n+1) {
                 margin-top: 0rem;
                 margin-right: 0;
                 margin-bottom: 0rem;
                 margin-left: 0;
-                width: 100%;
+                width: 60%;
                 clear: left;
                 max-width: inherit
             }
-            .b-content .fr_jujoda {
-                display: none
-            }
-            .b-content .fr_container_2 {
-                display: none
-            }
-            .b-content .fr_image_4 {
-                display: none;
-                width: 100%
-            }
-            .b-content .fr_bg_video_youtube {
-                width: 100%;
-                margin-top: 0;
-                margin-bottom: 0;
-                padding-top: 0;
-                padding-bottom: 0;
-                min-height: 25.11rem;
-                max-width: 480px
-            }
-            .b-content .fr_hero_with_fixed_bg {
-                margin-top: 0;
-                padding-top: 80px;
-                padding-bottom: 80px;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/eattle-boxing-gym-1_1.jpg_2048x1430.jpg);
-                min-height: 40.51rem
-            }
-            .b-content .fr_text_block_2 {
-                width: 100%;
-                max-width: 384px
-            }
-            .b-content .fr_container_6 {
-                margin-top: .5rem
-            }
-            .b-content .fr_container_7 {
-                width: 100%;
-                max-width: 384px
-            }
-            .b-content .fr_grid_2 {
-                width: 100%;
-                max-width: 220px
-            }
-            .b-content .fr_grid_2.fr-grid>.fr-widget {
-                float: left
-            }
-            .b-content .fr_grid_2.fr-grid>.fr-widget:nth-child(1n+1) {
-                margin-right: 1%;
-                margin-left: 1%;
-                width: 98.0%;
-                clear: left;
-                max-width: inherit
-            }
-            .b-content .fr_product_gallery {
-                padding-top: 1rem;
-                padding-bottom: 1rem
-            }
-            .b-content .fr_gry2_column_images {
-                width: 95%
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget {
-                float: left
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(2n+1) {
-                margin-top: .35rem;
-                margin-right: 2.4%;
-                margin-bottom: .35rem;
-                margin-left: 0;
-                width: 48.8%;
-                clear: left;
-                max-width: inherit
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(2n+2) {
-                margin-top: .35rem;
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget:nth-child(2n+2) {
+                margin-top: 0rem;
                 margin-right: 0;
-                margin-bottom: .35rem;
+                margin-bottom: 0rem;
                 margin-left: 0;
-                width: 48.8%;
+                width: 40%;
                 clear: none;
                 max-width: inherit
             }
-            .b-content .fr_gry2_image_seven {
-                margin-top: 1rem
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_image_container {
+                float: none;
+                display: -webkit-flex;
+                display: flex;
+                width: 100%;
+                margin-right: auto;
+                margin-left: auto
             }
-            .b-content .fr_icon_down_3 {
-                margin-top: 0rem
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_image {
+                width: auto;
+                margin-right: -4rem;
+                position: relative
             }
-            .b-content .fr_container_8 {
-                padding-top: 2rem
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_container_2 {
+                float: none;
+                display: -webkit-flex;
+                display: flex;
+                width: 100%;
+                margin-right: auto;
+                margin-left: auto
             }
-            .b-content .fr_container_11 {
-                display: block
-            }
-            .b-content .fr_image_13 {
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_container_110 {
+                float: none;
                 display: block;
-                width: 100%
+                -webkit-align-self: center;
+                align-self: center;
+                width: auto;
+                margin-left: -4em;
+                padding-top: 14%;
+                padding-right: 14%;
+                padding-bottom: 14%;
+                padding-left: 14%;
+                background-color: whitesmoke;
+                z-index: 0;
+                border-top: 4px solid #bdbab9
             }
-            .b-content .fr_container_13 {
-                margin-top: 2rem;
-                margin-bottom: 2rem
-            }
-            .b-content .fr_image_15 {
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block {
+                float: none;
                 display: block;
-                width: 100%
-            }
-        }
-
-        @media screen and (max-width: 320px) {
-            .b-content .fr_podime {
-                padding-top: 0;
-                padding-bottom: 0;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url(https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-img-mob_1.jpg_640x909.jpg);
-                background-size: cover;
-                background-attachment: scroll;
-                min-height: 28.45rem
-            }
-            .b-content .fr_gilene {
-                font-size: .9em;
-                line-height: 1.45em;
-                margin-top: 0
-            }
-            .b-content .fr_kacuva {
-                font-size: .9em;
-                line-height: 1.45em;
-                margin-top: 0
-            }
-            .b-content .fr_pocamu {
-                padding-top: 4rem;
-                padding-bottom: 4rem;
-                min-height: 38.69em
-            }
-            .b-content .fr_diwama {
-                margin-top: 1rem;
-                margin-bottom: 3em
-            }
-            .b-content .fr_imagewidget {
-                margin-top: 2em
-            }
-            .b-content .fr_icon_down {
-                margin-top: 9.3em;
-                margin-bottom: .4rem
-            }
-            .b-content .fr_text_block {
                 width: 100%;
-                max-width: 280px
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 800px
             }
-            .b-content .fr_grid {
-                min-height: 16.93rem
-            }
-            .b-content .fr_pink {
-                min-height: 16.63rem
-            }
-            .b-content .fr_bg_video_youtube {
-                min-height: 24.33rem;
-                max-width: 320px
-            }
-            .b-content .fr_hero_with_fixed_bg {
-                padding-top: 35px;
-                min-height: 39.13rem
-            }
-            .b-content .fr_text_block_2 {
-                width: 100%;
-                max-width: 270px
-            }
-            .b-content .fr_container_6 {
-                width: 100%;
-                max-width: 310px
-            }
-            .b-content .fr_grid_2 {
-                width: 100%;
-                max-width: 220px
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget {
-                float: left
-            }
-            .b-content .fr_gry2_column_images.fr-grid>.fr-widget:nth-child(1n+1) {
-                margin-top: .6em;
-                margin-right: 0;
-                margin-bottom: .6em;
-                margin-left: 0;
-                width: 100%;
-                clear: left;
-                max-width: inherit
-            }
-            .b-content .fr_scroll_down_2 {
-                font-size: .9em;
-                line-height: 1.45em;
-                margin-top: 0
-            }
-            .b-content .fr_container_8 {
-                padding-top: 1rem
-            }
-            .b-content .fr_container_11 {
-                margin-top: -1px
-            }
-            .b-content .fr_image_13 {
-                margin-top: 0rem
-            }
-            .b-content .fr_image_15 {
-                margin-top: 0rem
-            }
-        }
 
-        .b-content .fr_button2_2 {
-            transition-property: color, background-color;
-            transition-duration: .3s;
-            transition-timing-function: ease-out
-        }
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block_2 {
+                float: none;
+                display: block;
+                width: 100%;
+                margin-top: 1em;
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 800px
+            }
 
-        .b-content .fr_button2_2:hover {
-            color: black;
-            background-color: white;
-            transition-duration: .125s
-        }
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2 {
+                float: none;
+                display: block;
+                width: 100%;
+                margin-top: 1.4em;
+                padding-top: 16px;
+                padding-right: 14px;
+                padding-bottom: 16px;
+                padding-left: 14px;
+                max-width: 195px
+            }
 
-        .b-content .fr_button2 {
-            transition-property: color, background-color;
-            transition-duration: .3s;
-            transition-timing-function: ease-out
-        }
+            @media screen and (max-width: 1024px) {
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black.fr-text h2 {
+                    font-size: 2.3em;
+                    line-height: .9
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black.fr-text p {
+                    font-size: .9em;
+                    line-height: 1.2
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton {
+                    font-size: .7em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton.fr-text h2 {
+                    font-size: 1em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container {
+                    margin-top: 3.5em;
+                    margin-bottom: 3.5em;
+                    padding-right: 2rem;
+                    padding-left: 2rem
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block_2 {
+                    margin-top: .6em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2 {
+                    padding-top: 14px;
+                    padding-right: 10px;
+                    padding-bottom: 14px;
+                    padding-left: 10px
+                }
+            }
 
-        .b-content .fr_button2:hover {
-            color: black;
-            background-color: white;
-            transition-duration: .125s
-        }
-    </style>
-    <body>
-    <div class="b-content">
-        <div id="fr_5419713eceb9ab0e2c00003a" class="fr-widget fr-container fr_cufobu">
-        </div><!--
-     --><div id="fr_5419703bceb9ab113b000027" class="fr-widget fr-container fr_podime">
-            <div id="fr_54197382ceb9ab0e2c00004f" class="fr-widget fr-container fr_diwama">
-                <div id="fr_588f469186c76c5e5000006f" class="fr-widget fr-img fr_icon_down"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-logo.png_1200x218.png" />
-                </div><!--
-             --><div id="fr_54197382ceb9ab0e2c000053" class="fr-widget fr-text fr-wf fr_gilene">
-                    <div class="fr-text">
-                        <p>BY SUPERDRY, FOR THE ELITE</p>
+            @media screen and (max-width: 768px) {
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black.fr-text h2 {
+                    font-size: 1.75em;
+                    line-height: .8;
+                    text-align: center
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black.fr-text p {
+                    font-size: .8em;
+                    text-align: center
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton {
+                    font-size: .68em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container {
+                    padding-right: 0;
+                    padding-left: 0
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid {
+                    width: 90%
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget {
+                    float: left
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget:nth-child(2n+1) {
+                    margin-right: 0;
+                    margin-left: 0;
+                    width: 50%;
+                    clear: left;
+                    max-width: inherit
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget:nth-child(2n+2) {
+                    margin-right: 0;
+                    margin-left: 0;
+                    width: 50%;
+                    clear: none;
+                    max-width: inherit
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_image_container {
+                    background-image: url(https://images.unsplash.com/photo-1489459166189-0655743b838f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEwOTV9&s=7ee7746e545850412ddddf61922841d5);
+                    background-position: left top;
+                    background-size: 150%
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_image {
+                    display: none;
+                    margin-right: 0
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container_110 {
+                    width: auto;
+                    margin-left: 0;
+                    padding-top: 12%;
+                    padding-right: 12%;
+                    padding-bottom: 12%;
+                    padding-left: 12%
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block {
+                    float: none;
+                    display: block
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block_2 {
+                    float: none;
+                    display: block;
+                    margin-top: .5rem
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2 {
+                    float: none;
+                    display: block;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-top: 12px;
+                    padding-bottom: 12px
+                }
+            }
+
+            @media screen and (max-width: 480px) {
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black.fr-text h2 {
+                    text-align: center
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black.fr-text p {
+                    text-align: center
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton {
+                    font-size: .7em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton.fr-text h2 {
+                    font-size: .9em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_txtbutton.fr-text h2 {
+                    font-size: .9em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container {
+                    margin-top: 1.8em;
+                    margin-bottom: 1.8em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget {
+                    float: left
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_buttongrid.fr-grid>.fr-widget:nth-child(1n+1) {
+                    margin-top: .6em;
+                    margin-right: 0;
+                    margin-bottom: .6em;
+                    margin-left: 0;
+                    width: 100%;
+                    clear: left;
+                    max-width: inherit
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_image {
+                    display: block;
+                    width: 100%;
+                    margin-right: 0;
+                    margin-left: 0
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container_110 {
+                    float: none;
+                    display: block;
+                    width: 90%;
+                    margin-top: -3em;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-top: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 30px;
+                    padding-left: 30px
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2 {
+                    padding-top: 14px;
+                    padding-right: 6px;
+                    padding-bottom: 14px;
+                    padding-left: 6px
+                }
+            }
+
+            @media screen and (max-width: 320px) {
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_hp2_black.fr-text h2 {
+                    font-size: 1.7em
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_mp2_subtext_black.fr-text p {
+                    font-size: .8rem
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_container_110 {
+                    margin-top: -3em;
+                    padding-right: 20px;
+                    padding-left: 20px
+                }
+                .froont-embed-content.fr-pro-baoq7r .b-content .fr_text_block_2 {
+                    margin-top: .5em
+                }
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2 {
+                transition-property: color, background-color, border-color;
+                transition-duration: .3s;
+                transition-timing-function: ease-out
+            }
+
+            .froont-embed-content.fr-pro-baoq7r .b-content .fr_mens_button_2:hover {
+                color: black;
+                background-color: white;
+                border-color: white;
+                transition-duration: .125s
+            }
+        </style>
+        <script type="text/javascript">
+            var fonts = {
+                "Montserrat": {
+                    "family": "Montserrat",
+                    "source": "google",
+                    "subsets": [
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "variants": [
+                        "100",
+                        "100italic",
+                        "200",
+                        "200italic",
+                        "300",
+                        "300italic",
+                        "500",
+                        "500italic",
+                        "600",
+                        "600italic",
+                        "700",
+                        "700italic",
+                        "800",
+                        "800italic",
+                        "900",
+                        "900italic",
+                        "italic",
+                        "regular"
+                    ]
+                },
+                "Roboto": {
+                    "family": "Roboto",
+                    "source": "google",
+                    "subsets": [
+                        "cyrillic",
+                        "cyrillic-ext",
+                        "greek",
+                        "greek-ext",
+                        "latin",
+                        "latin-ext",
+                        "vietnamese"
+                    ],
+                    "variants": [
+                        "100",
+                        "100italic",
+                        "300",
+                        "300italic",
+                        "500",
+                        "500italic",
+                        "700",
+                        "700italic",
+                        "900",
+                        "900italic",
+                        "italic",
+                        "regular"
+                    ]
+                }
+            };
+        </script>
+        <script>
+            (function(window, $) {
+                'use strict';
+                var fonts = window.fonts;
+                var WebFont = window.WebFont;
+                window.googleFonts = [];
+                window.typekitFonts = [];
+                var googleFonts = window.googleFonts,
+                    typekitFonts = window.typekitFonts;
+                var googleFontString = function(family, variants, subsets) {
+                    var result = family;
+                    if (!!variants) {
+                        result += ':' + variants.join(',') + ':' + subsets.join(',');
+                    }
+                    return result;
+                };
+                $.each(fonts, function(family, font) {
+                    if (font.source === 'google') {
+                        googleFonts.push(googleFontString(family, font.variants, font.subsets));
+                    } else if (font.source === 'typekit') {
+                        typekitFonts.push({
+                            'id': font.id,
+                            'variations': font.variants,
+                            'css_name': font['css_name']
+                        });
+                    }
+                });
+                if (WebFont && googleFonts.length) {
+                    WebFont.load({
+                        google: {
+                            families: googleFonts
+                        }
+                    });
+                }
+            })(window, jQuery);
+        </script>
+    </div>
+    <div class="b-content hide-footer">
+        <div id="container" class="fr-widget fr-container fid-5acf28498b8fbb579200011d fr_container" data-id="5acf28498b8fbb579200011d">
+            <div id="buttongrid" class="fr-widget fr-grid fid-5acf28498b8fbb5792000128 fr_buttongrid" data-id="5acf28498b8fbb5792000128">
+                <div id="image_container" class="fr-widget fr-container fid-5acf28498b8fbb5792000136 fr_image_container" data-id="5acf28498b8fbb5792000136">
+                    <div id="image" class="fr-widget fr-img fid-5acf28498b8fbb5792000144 fr_image" data-id="5acf28498b8fbb5792000144"> <img src="https://images.unsplash.com/photo-1489459166189-0655743b838f?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEwOTV9&amp;s=7ee7746e545850412ddddf61922841d5" />
                     </div>
-                </div>
-            </div><!--
-         --><a id="fr_588f461b86c76c5e5000006b" class="fr-widget fr-img fr_imagewidget fr-widget-hover-opacity-60 fr-link fr-having-animation animated bounce infinite" href="#fr_588f668486c76c527c0000eb" data-fr-animation="bounce" data-fr-animation-duration="1.5s" data-fr-animation-delay="0s"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/anchor-arrow_1.png_70x70.png" />
-            </a><!--
-         --><a id="fr_54198636ceb9ab7d5300002a" class="fr-widget fr-text fr-wf fr_kacuva fr-widget-hover-opacity-60 fr-link" href="http://www.froont.com" target="_blank">
-                <div class="fr-text">DISCOVER MORE</div>
-            </a>
-        </div><!--
-     --><div id="fr_54369e21ceb9ab142c00002f" class="fr-widget fr-container fr_pocamu">
-            <div id="fr_588f47bd86c76c5e500000ae" class="fr-widget fr-text fr-wf fr_text_block">
-                <div class="fr-text">
-                    <h4>Featuring high-performance fabrics with impeccable attention to detail, Superdry’s latest Sport Collection is in a league of its own. Already proven popular in the celebrity world, Superdry's flattering and breathable hi-tech fabrics featuring the hottest colour trends assure a stylish look with professional performance. From vest tops to sports leggings and gym shorts, our sportswear is designed with comfort in mind. Bursts of fluro coral, purple and charcoal compliment the finest brushed soft-touch fabrics. From dedicated gym buffs to casual runners, Superdry’s sports clothing is this season’s must-have fitness look.</h4>
-                </div>
-            </div>
-        </div><!--
-     --><div id="fr_5437a4f1ceb9ab6c88000019" class="fr-widget fr-container fr_jujoda">
-            <div id="fr_588f492286c76c5e500000bb" class="fr-widget fr-grid fr_grid">
-                <div id="fr_588f4ff086c76c4c5e000048" class="fr-widget fr-container fr_pink">
-                    <a id="fr_588f493086c76c5e500000c5" class="fr-widget fr-img fr_image fr-widget-hover-opacity-60 fr-link" href="http://www.superdry.com/womens/bags/details/63507/tarp-barrel-bag-black"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-001_2.jpg_1184x1000.jpg" />
-                    </a><!--
-                 --><a id="fr_588f5b7a86c76c4c5e0000ea" class="fr-widget fr-img fr_image_4 fr-widget-hover-opacity-60 fr-link" href="http://www.superdry.com/mens/superdry-sport/details/64995/sports-active-core-cagoule-black"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-003_10.jpg_1352x822.jpg" />
-                    </a>
                 </div><!--
-             --><div id="fr_588f500886c76c4c5e00004d" class="fr-widget fr-container fr_container_2">
-                    <a id="fr_588f493e86c76c5e500000ca" class="fr-widget fr-img fr_image_2 fr-widget-hover-opacity-60 fr-link" href="http://www.superdry.com/womens/superdry-sport/details/65884/studio-drape-vest-top-grey"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-002_12.jpg_716x697.jpg" />
-                    </a><!--
-                 --><a id="fr_588f540f86c76c4c5e0000e1" class="fr-widget fr-img fr_image_3 fr-widget-hover-opacity-60 fr-link" href="http://www.superdry.com/mens/superdry-sport/details/62248/gym-sport-runner-vest-top-grey"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/untitled-6.jpg_879x1318.jpg" />
-                    </a>
-                </div>
-            </div>
-        </div><!--
-     --><div id="fr_5890acdd86c76c0f54000117" class="fr-widget fr-container fr_container_11">
-            <div id="fr_5890b47d86c76c0f5400018b" class="fr-widget fr-img fr_image_15"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-001_3.jpg_1184x1000.jpg" />
-            </div><!--
-         --><div id="fr_5890ace186c76c0f5400011c" class="fr-widget fr-img fr_image_13"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/sport-main-002-mob_1.jpg_1184x1000.jpg" />
-            </div>
-        </div><!--
-     --><div id="fr_5890b04986c76c0f54000160" class="fr-widget fr-container fr_container_13">
-            <div id="fr_588f668486c76c527c0000eb" class="fr-widget fr-container fr_bg_video_youtube fr-having-bg-video" data-fr-bg-video-url="https://youtu.be/G73PtGJ5ayk">
-                <div class="fr-bg-video-container"></div>
-                <div class="fr-subwidgets-container">
-                </div>
-            </div>
-        </div><!--
-     --><div id="fr_588f6dbf86c76c614000009f" class="fr-widget fr-container fr_hero_with_fixed_bg">
-            <div id="fr_588f6e1586c76c6140000117" class="fr-widget fr-container fr_container_6">
-                <div id="fr_588f6dff86c76c61400000ff" class="fr-widget fr-text fr-wf fr_text_block_2">
-                    <div class="fr-text">
-                        <h4>Featuring high-performance fabrics with impeccable attention to detail, Superdry’s latest Sport Collection is in a league of its own. Already proven popular in the celebrity world, Superdry's flattering and breathable hi-tech fabrics featuring the hottest colour trends assure a stylish look with professional performance.&nbsp;</h4>
-                    </div>
-                </div><!--
-             --><div id="fr_588f6fec86c76c6140000167" class="fr-widget fr-container fr_container_7">
-                    <div id="fr_588f6ffb86c76c614000018a" class="fr-widget fr-grid fr_grid_2">
-                        <div id="fr_588f6ff786c76c614000016c" class="fr-widget fr-text fr-wf fr_button_fill_red fr_button2">
+             --><div id="container_2" class="fr-widget fr-container fid-5acf28498b8fbb5792000138 fr_container_2" data-id="5acf28498b8fbb5792000138">
+                    <div id="container_110" class="fr-widget fr-container fid-5acf28498b8fbb5792000152 fr_container_110" data-id="5acf28498b8fbb5792000152">
+                        <div id="text_block" class="fr-widget fr-text fr-wf fid-5acf28498b8fbb579200015f fr_hp2_black fr_text_block" data-id="5acf28498b8fbb579200015f">
                             <div class="fr-text">
-                                <p>Mens Collection</p>
+                                <h2>Nice shoes</h2>
                             </div>
                         </div><!--
-                     --><div id="fr_588f6ffb86c76c614000017c" class="fr-widget fr-text fr-wf fr_button_fill_red fr_button2_2">
-                            <div class="fr-text">Womens Collection</div>
-                        </div>
-                    </div><!--
-                 --><div id="fr_5890596186c76c5c6e000104" class="fr-widget fr-container fr_container_8">
-                        <a id="fr_5890592186c76c5c6e0000e9" class="fr-widget fr-img fr_icon_down_3 fr-widget-hover-opacity-60 fr-link fr-having-animation animated bounce infinite" href="#fr_589058bd86c76c5c6e000077" data-fr-animation="bounce" data-fr-animation-duration="1.5s" data-fr-animation-delay="0s"> <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/anchor-arrow_1.png_70x70.png" />
-                        </a><!--
-                     --><div id="fr_5890595086c76c5c6e0000f2" class="fr-widget fr-text fr-wf fr_scroll_down_2">
-                            <div class="fr-text">PRODUCT HIGHLIGHTS</div>
-                        </div>
+                     --><div id="text_block_2" class="fr-widget fr-text fr-wf fid-5acf28498b8fbb5792000161 fr_mp2_subtext_black fr_text_block_2" data-id="5acf28498b8fbb5792000161">
+                            <div class="fr-text">
+                                <p>These shoes are a nice example of what shoes really are!</p>
+                            </div>
+                        </div><!--
+                     --><a id="mens_button_2" class="fr-widget fr-text fr-wf fid-5acf28498b8fbb57920001a6 fr_txtbutton fr_mens_button_2 fr-link" data-id="5acf28498b8fbb57920001a6">
+                            <div class="fr-text">
+                                Check them out</div>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div><!--
-     --><div id="fr_589058bd86c76c5c6e000070" class="fr-widget fr-container fr_product_gallery">
-            <div id="fr_589058bd86c76c5c6e000077" class="fr-widget fr-grid fr_gry2_column_images">
-                <div id="fr_589058bd86c76c5c6e000089" class="fr-widget fr-container fr_gry2_image_one fr-widget-hover-opacity-60">
-                    <a id="fr_58906a7186c76c77860000ab" class="fr-widget fr-container fr_container_9 fr-link fr-popup-anchor" href="#fr_58908af786c76c7b760002a9">
-                        <div id="fr_589069de86c76c778600009e" class="fr-widget fr-text fr-wf fr_text_block_3 fr_products">
-                            <div class="fr-text">Sports Athletic Top - £26.99</div>
-                        </div>
-                    </a>
-                </div><!--
-             --><div id="fr_589058e386c76c5c6e0000b1" class="fr-widget fr-container fr_gry2_image_one_2 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fae86c76c60580000ef" class="fr-widget fr-text fr-wf fr_products fr_text_block_4">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e00008b" class="fr-widget fr-container fr_gry2_image_two fr-widget-hover-opacity-60">
-                    <div id="fr_58908fb386c76c60580000fd" class="fr-widget fr-text fr-wf fr_products fr_text_block_5">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058e886c76c5c6e0000b6" class="fr-widget fr-container fr_gry2_image_two_2 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fb786c76c605800010b" class="fr-widget fr-text fr-wf fr_products fr_text_block_6">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e00008d" class="fr-widget fr-container fr_gry2_image_three fr-widget-hover-opacity-60">
-                    <div id="fr_58908fba86c76c6058000119" class="fr-widget fr-text fr-wf fr_products fr_text_block_7">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058ea86c76c5c6e0000bb" class="fr-widget fr-container fr_gry2_image_three_2 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fbd86c76c6058000127" class="fr-widget fr-text fr-wf fr_products fr_text_block_8">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e00008f" class="fr-widget fr-container fr_gry2_image_four fr-widget-hover-opacity-60">
-                    <div id="fr_58908fc186c76c6058000135" class="fr-widget fr-text fr-wf fr_products fr_text_block_9">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058ec86c76c5c6e0000c0" class="fr-widget fr-container fr_gry2_image_four_2 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fc386c76c6058000143" class="fr-widget fr-text fr-wf fr_products fr_text_block_10">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058ee86c76c5c6e0000c5" class="fr-widget fr-container fr_gry2_image_four_3 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fca86c76c6058000151" class="fr-widget fr-text fr-wf fr_products fr_text_block_11">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058f086c76c5c6e0000ca" class="fr-widget fr-container fr_gry2_image_four_4 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fcf86c76c605800015f" class="fr-widget fr-text fr-wf fr_products fr_text_block_12">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058f286c76c5c6e0000d4" class="fr-widget fr-container fr_gry2_image_four_6 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fd486c76c605800016d" class="fr-widget fr-text fr-wf fr_products fr_text_block_13">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_5890620b86c76c0cec000093" class="fr-widget fr-container fr_gry2_image_four_7 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fd786c76c605800017b" class="fr-widget fr-text fr-wf fr_products fr_text_block_14">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_58908bbc86c76c7b760002d6" class="fr-widget fr-container fr_gry2_image_eight_2 fr-widget-hover-opacity-60">
-                    <div id="fr_58908fdb86c76c6058000189" class="fr-widget fr-text fr-wf fr_products fr_text_block_15">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e000093" class="fr-widget fr-container fr_gry2_image_six fr-widget-hover-opacity-60">
-                    <div id="fr_58908fe786c76c6058000197" class="fr-widget fr-text fr-wf fr_products fr_text_block_16">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e000095" class="fr-widget fr-container fr_gry2_image_seven fr-widget-hover-opacity-60">
-                    <div id="fr_58908fea86c76c60580001a5" class="fr-widget fr-text fr-wf fr_products fr_text_block_17">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div><!--
-             --><div id="fr_589058bd86c76c5c6e000097" class="fr-widget fr-container fr_gry2_image_eight fr-widget-hover-opacity-60">
-                    <div id="fr_58908fec86c76c60580001b3" class="fr-widget fr-text fr-wf fr_products fr_text_block_18">
-                        <div class="fr-text">Sports Athletic Top - £26.99</div>
-                    </div>
-                </div>
-            </div>
-        </div><!--
-     --><div id="fr_5890882186c76c7b76000118" class="fr-widget fr-container fr_container_10 fr-widget-hover-opacity-60">
-            <div id="fr_58908af786c76c7b760002a9" class="fr-widget fr-gallery fr-gallery-type-lightbox fr-popup-gallery fr-popup-anchor fr_grown" data-gallery-images="[{&#34;src&#34;: &#34;https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload3080108234293468025_4.jpg_820x1000.jpg&#34;, &#34;title&#34;: null}, {&#34;src&#34;: &#34;https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload8419512842760277612_1.jpg_820x1000.jpg&#34;, &#34;title&#34;: null}, {&#34;src&#34;: &#34;https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload8888263564151943592_1.jpg_820x1000.jpg&#34;, &#34;title&#34;: null}]">
-                <img src="https://cdn.froont.com/naomi-lesniewska/890eva/_static-uploads/images/thumbnail/upload3080108234293468025_4.jpg_820x1000.jpg" />
             </div>
         </div>
     </div>
