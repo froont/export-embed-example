@@ -38,7 +38,7 @@ Export happens on user action - "Export to S3":
 Host the returned HTML and link the base assets provided by Froont.
 
 1. Host or link to Froont base assets
-    * Exported HTML file don't include base assets which are the same for all projects (`froont-export-main.js` and `froont-export-main.css`)
+    * Exported HTML file doesn't include base assets which are the same for all projects (`froont-export-main.js` and `froont-export-main.css`)
     * Those can be acquired from Froont and hosted on your own server for better performance
     * Or link the assets from Froont directly
 2. Embed the code returned from Froont in any of your pages
