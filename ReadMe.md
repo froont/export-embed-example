@@ -3,6 +3,15 @@
 This is example of exported code from Froont app, to be used as embed in another page.
 
 
+## What is it for?
+
+It allows a user to place HTML/CSS/JS content created in Froont directly in to their webpage through CMS, while keeping your own header/footer and other page peaces that don't need to be changed. This is perfect campaign banners and publications.
+
+
+## Try it
+To try it out copy the HTML from this file: [embed-with-linked-assets.html](./embed-with-linked-assets.html) and paste in your CMS HTML editing mode.
+
+
 ## Base Style and Script
 
 The froont-export-main.js and froont-export-main.css are Froont global CSS and JavaScript files. They are provided here for user to be able to store them in their own CDN (the paths to files should be updated in HTML).
